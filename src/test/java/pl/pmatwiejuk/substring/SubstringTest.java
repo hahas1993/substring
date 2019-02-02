@@ -41,7 +41,7 @@ public class SubstringTest {
                 {"abcd", "a\\*c", false},
                 {"abcd", "ac", false},
                 {"aabb", "aaabbb", false},
-                {"aabb     cccccccc", "bbccc*ccccc", true},
+                {"aabb     cccccccc", "bbccc*ccccc", false},
                 {"aabb", "*a*a*a*b*b*b*", false},
                 {"abcdefghijk", "ab\\*efg*hi*", false},
                 {"aaaaaaaaabbbbbbbbbcccccccc", "aaaaaaaabbbbbbd", false},
